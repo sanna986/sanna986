@@ -1,0 +1,2 @@
+CSR1kv ansible_user=cisco ansible_password=cisco123! ansible_host=192.168.56.102
+#CSR1kv ansible_host=192.168.56.101
