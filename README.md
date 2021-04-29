@@ -38,3 +38,14 @@ Task troubleshooting:<br/>
 So there was no interface setup... I did it manually but then SSH refused connection.<br/>
 Task Verification:<br/>
 The Ansible script runs and gives the same output as i would run on router<br/>
+
+
+<br/>#Task name: RESTCONF
+<br/>##Task preparation: <br/>
+1/ Setup Restconf in CSR1000V<br/>
+##Task implementation:<br/>
+1/add ip + port + username + password in the urls <br/>
+2/change curl command to python requests.post(...) with the parameters<br/>
+<br/>
+Task troubleshooting:<br/>
+I copied the urls and changed them but because of a weird character that was pasted i got errors<br/>
